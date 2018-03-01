@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMapis.MapModel", "ProjectMapis.MapModel\ProjectMapis.MapModel.csproj", "{D3E5F3D0-0F3F-400E-A854-EE02A79F2E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMapis.GUI", "ProjectMapis.GUI\ProjectMapis.GUI.csproj", "{6796621E-48D1-4BA1-865B-9002CEA31038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMapis.Tests", "ProjectMapis.Tests\ProjectMapis.Tests.csproj", "{9D8C7917-5BC7-48B0-9037-F78D36CCEBF6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E5F3D0-0F3F-400E-A854-EE02A79F2E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E5F3D0-0F3F-400E-A854-EE02A79F2E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E5F3D0-0F3F-400E-A854-EE02A79F2E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E5F3D0-0F3F-400E-A854-EE02A79F2E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6796621E-48D1-4BA1-865B-9002CEA31038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6796621E-48D1-4BA1-865B-9002CEA31038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6796621E-48D1-4BA1-865B-9002CEA31038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6796621E-48D1-4BA1-865B-9002CEA31038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8C7917-5BC7-48B0-9037-F78D36CCEBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8C7917-5BC7-48B0-9037-F78D36CCEBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8C7917-5BC7-48B0-9037-F78D36CCEBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8C7917-5BC7-48B0-9037-F78D36CCEBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
